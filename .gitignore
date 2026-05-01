@@ -1,0 +1,48 @@
+# Modeles ML (trop gros pour GitHub)
+models/
+*.pkl
+
+# Environnements Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Donnees brutes (gros fichiers)
+recipes.csv
+recipe_instructions.csv
+recipe_ingredients.csv
+recipes_instructions_annotated.csv
+combined_variants_results_dataset.csv
+final_dataset_cleaned_with_normalization_only*.csv
+data_checkpoint.jsonl
+data_echouee.jsonl
+data_variantes_*.csv
+data_variantes_*.json
+variantes_flags_final_.csv
+
+# Secrets
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log

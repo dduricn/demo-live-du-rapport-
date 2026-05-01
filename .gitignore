@@ -46,3 +46,9 @@ Thumbs.db
 
 # Logs
 *.log
+Presentation*.pptx
+data_*.csv
+df_*.csv
+type2_*.csv
+dataset_*.csv
+images/
